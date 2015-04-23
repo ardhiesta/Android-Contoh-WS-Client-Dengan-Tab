@@ -18,7 +18,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void nextActivity(View view){
-        Intent i = new Intent(this, WisataActivity.class);
+        Intent i = new Intent(this, WisataTabActivity.class);
         startActivity(i);
     }
 

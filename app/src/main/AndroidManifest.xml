@@ -26,6 +26,10 @@
             android:name=".ReviewWisataActivity"
             android:label="@string/title_activity_review_wisata" >
         </activity>
+        <activity
+            android:name=".WisataTabActivity"
+            android:label="@string/title_activity_wisata_tab" >
+        </activity>
     </application>
 
 </manifest>

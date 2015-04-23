@@ -5,4 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_wisata">WisataActivity</string>
     <string name="title_activity_review_wisata">ReviewWisataActivity</string>
+    <string name="title_activity_wisata_tab">WisataTabActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
