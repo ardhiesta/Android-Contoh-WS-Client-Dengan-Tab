@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/fotoWisata"
+        android:src="@drawable/amarok"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Large Text"
+        android:id="@+id/txtNamaWisata"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/fotoWisata"
+        android:layout_toEndOf="@+id/fotoWisata" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/txtInfoWisata"
+        android:layout_below="@+id/txtNamaWisata"
+        android:layout_toRightOf="@+id/fotoWisata"
+        android:layout_toEndOf="@+id/fotoWisata" />
+</RelativeLayout>

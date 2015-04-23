@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Latihan</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wisata">WisataActivity</string>
+    <string name="title_activity_review_wisata">ReviewWisataActivity</string>
+</resources>
